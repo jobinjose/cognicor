@@ -1,0 +1,341 @@
+/*main CSS Stylesheet*/
+
+
+
+#unres
+{
+font-size:45px;
+float:right;
+color:#373737;
+margin-right:30px;
+opacity:0.8;
+}
+
+#unressmall
+{
+font-size:30px;
+margin-top:-50px;
+float:right;
+margin-right:30px;
+color:#373737;
+opacity:0.7;
+}
+
+#start
+{
+width:100%;
+height:600px;
+background:url('images/cog/start.jpg');
+
+}
+
+.textbox
+{
+margin-top:-200px;
+float:right;
+margin-right:60px;
+font-size:30px;
+width:320px;
+}
+
+#topnav li
+{
+display: inline;
+font-size:18px;
+text-align:center;
+}
+
+#topnav li :hover
+{
+color:#acd219;
+background-image: url(../images/cog/buttons/active.png)
+}
+
+
+
+.navbtn
+{
+width:110px;
+height:70px;
+position:relative;
+float:left;
+background-image: url(../images/cog/buttons/dull.png)
+}
+
+.navactive
+{
+background-image: url(../images/cog/buttons/active.png)
+}
+
+
+
+.navbtn a:visited
+{color:#373737;}
+
+.navbtn a.button
+{
+text-decoration:none;
+padding:15px 20px 15px 20px;
+}
+
+
+#topnav
+{
+position:fixed;
+top:0px;
+left:0px;
+background-color:white;
+height:73px;
+width:100%;
+z-index:10000;
+}
+
+#topnav ul
+{
+
+}
+
+#navitems
+{
+position: relative;
+top:0px;
+padding-left: -10px;
+margin-left:auto;
+margin-right:auto;
+width:900px;
+height:70px;
+}
+
+#topnavshadow
+{
+position:fixed;
+top:73px;
+background-color:transparent;
+height:30px;
+width:940px;
+z-index:10000;
+}
+
+#badge
+{
+float: right;
+position:relative;
+top:-124px;
+height:360px;
+}
+
+
+					
+.member{
+  background-color:#eaeaea;
+  margin-bottom:4px;
+  display: block;
+  height: 320px;
+  width: 468px;
+  float:left;
+}
+
+.lmember
+{
+  margin-right:4px;
+}
+
+.member:hover{  background-color:#e1e1e1;}
+
+.memberimage{
+  background-color:grey;
+  float:left;
+  /*background: url(../images/demo/browser-author.jpg) center center no-repeat;*/
+  border: 3px solid #ffffff;
+  display: block;
+  height: 120px;
+  margin: 20px 21px;
+  width: 120px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.member.name{font-size:15px;}
+
+.title{margin:50px 0 46px 0;  font-size:16px; float:right;  width:284px;   }
+
+.title h5
+{
+font-size:20px;
+text-transform:capitalize;
+}
+
+.title h6
+{
+font-style:italic;
+text-transform:capitalize;
+}
+
+.memdetails{font-size:14px; font-style: normal; width:90%;  margin: 20px auto;}
+
+#sindhu{  background: url(../images/cog/team/sindhu.png) center center no-repeat; background-size:100% 100%;}
+#rosh{  background: url(../images/cog/team/rosh.png) center center no-repeat; background-size:100% 100%;}
+#nico{  background: url(../images/cog/team/nico.png) center center no-repeat; background-size:100% 100%;}
+#pietro{  background: url(../images/cog/team/pietro.png) center center no-repeat; background-size:100% 100%;}
+#jyothis{  background: url(../images/cog/team/jyothis.jpeg) center center no-repeat; background-size:100% 100%;}
+#mirian{  background: url(../images/cog/team/mirian.jpeg) center center no-repeat; background-size:100% 100%;}
+
+
+.todo-title {
+  position: relative;
+  background: #3498DB;
+  background-size: 16px 16px;
+  border-radius: 6px 6px 0 0;
+  color: #34495e;
+  padding: 19px 25px 20px;
+}
+
+#usertext
+{
+margin-top:20px;
+margin-bottom:10px;
+width:590px;
+}
+
+#contact-mail
+{
+margin-left:15px;
+
+}
+
+
+.footlinks 
+{
+margin-left:100px;
+}
+
+.footlinks ul li
+{
+list-style:none;
+text-decoration:none;
+float:left;
+}
+
+.footlinks ul li a
+{ 
+text-decoration:none;
+font-size:12px;
+}
+
+
+div.press_mentions { padding-top: 15px; width:60%; float:left; }
+	div.press_mentions ul {
+		list-style: none;
+	}
+		div.press_mentions ul li {
+			margin-bottom: 30px;
+			overflow: hidden;
+		}
+			div.press_mentions ul li .logo {
+				float: left;
+				position: relative;
+				border: 1px solid #eaeaea;
+				width: 75px;
+				height: 65px;
+			}
+				div.press_mentions ul .logo img {
+					position: absolute;
+					top: 2px;
+					left: 4px;
+				}
+			div.press_mentions ul li .details {
+				margin-left: 95px;
+
+			}
+			div.press_mentions ul li p {
+				font-style: italic;
+				color: #5d5d5d;
+				font-size: 15px;
+				margin-bottom: 8px;
+				line-height: 22px;
+			}
+			div.press_mentions ul li address,
+			div.press_mentions ul li address a {
+				font-size: 12px;
+				font-weight: bold;
+				color: #333;
+				font-style: normal;
+			}
+				div.press_mentions ul li address a:before {
+					content: "|";
+					padding: 0px 10px 0px 5px;
+					font-style: normal;
+					color: #b2b2b2;
+				}
+				div.press_mentions ul li address a {
+					color: #319ebc;
+					-webkit-transition:color 0.2s ease-in;  
+			    -moz-transition:color 0.2s ease-in;  
+			    -o-transition:color 0.2s ease-in;  
+			    transition:color 0.2s ease-in;
+					font-style: italic;
+				}
+					div.press_mentions ul li address a:hover { color: #333;	}
+
+
+
+
+
+					
+
+div.press_small { padding-top: 15px; width:35%; float:left; border-left:solid #eaeaea; margin-left:2%; margin-bottom:50px;}
+	div.press_small ul {
+		list-style: none;
+	}
+		div.press_small ul li {
+			margin: 0 0 30px 20px;
+			overflow: hidden;
+			float:left;
+			
+		}
+			div.press_small ul li .logo {
+				float: left;
+				position: relative;
+				border: 1px solid #eaeaea;
+				width: 75px;
+				height: 65px;
+			}
+				div.press_small ul .logo img {
+					position: absolute;
+					top: 2px;
+					left: 4px;
+				}
+			div.press_small ul li .details {
+				margin-left: 95px;
+
+			}
+			div.press_small ul li p {
+				font-style: italic;
+				color: #5d5d5d;
+				font-size: 15px;
+				margin-bottom: 8px;
+				line-height: 22px;
+			}
+			div.press_small ul li address,
+			div.press_small ul li address a {
+				font-size: 12px;
+				font-weight: bold;
+				color: #333;
+				font-style: normal;
+			}
+				div.press_small ul li address a:before {
+					content: "|";
+					padding: 0px 10px 0px 5px;
+					font-style: normal;
+					color: #b2b2b2;
+				}
+				div.press_small ul li address a {
+					color: #319ebc;
+					-webkit-transition:color 0.2s ease-in;  
+			    -moz-transition:color 0.2s ease-in;  
+			    -o-transition:color 0.2s ease-in;  
+			    transition:color 0.2s ease-in;
+					font-style: italic;
+				}
+					div.press_small ul li address a:hover { color: #333;	}
